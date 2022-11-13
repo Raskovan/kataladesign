@@ -13,8 +13,8 @@ $mail = new ctPHPMailer();
 For GMAIL configuration please use this values:
  */
 $mail->Host = "smtp.gmail.com"; // SMTP server
-$mail->Username = "alexey.katalkin@gmail.com"; // SMTP account username
-$mail->Password = "raskovan75"; // SMTP account password
+$mail->Username = ""; // SMTP account username
+$mail->Password = ""; // SMTP account password
 $mail->Port = 465; // set the SMTP port for the GMAIL server
 $mail->SMTPSecure = "ssl";
 
