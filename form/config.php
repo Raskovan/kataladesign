@@ -55,5 +55,5 @@ $mail->SMTPDebug = $debug ? 2 : 0; // debug messages - set debug to false on pro
 //to send mail from contact form or book a table table to a different email just copy those two lines and paste below
 //require_once "config.php" in send.php or table.php
 
-$mail->SetFrom('alexey.katalkin@gmail.com', 'Katala Design'); //from address
-$mail->AddAddress("alexey.katalkin@gmail.com", "Katala Design"); //where to send email
+$mail->SetFrom('', ''); //from address
+$mail->AddAddress("", ""); //where to send email
